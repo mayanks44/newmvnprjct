@@ -2,7 +2,7 @@ node
 {
 stage 'Checkout'
         
-   def mvnHome = tool name: 'M3', type: 'maven'
+   def mvnHome = tool name: 'maven 3.0', type: 'maven'
 
 stage 'Build'
      
