@@ -1,6 +1,8 @@
 node
 {
 stage 'Checkout'
+ 
+   git url: 'https://github.com/mayanks44/newmvnprjct.git'
         
    def mvnHome = tool name: 'maven 3.0', type: 'maven'
 
